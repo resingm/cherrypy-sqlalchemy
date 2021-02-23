@@ -50,7 +50,7 @@ Here is an example connecting to a sqlite db: ::
       cherrypy.engine.block()
 
 
-One thin to note is the ORMBase we imported is
+One thing to note is the ORMBase we imported is
 `sqlalchemy.ext.declarative.declarative_base()` that was used when
 creating models.
 
